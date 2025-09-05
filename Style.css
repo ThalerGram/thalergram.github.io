@@ -1,7 +1,9 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   background: #ece5dd;
+  direction: ltr;
+  text-align: left;
 }
 
 .container {
