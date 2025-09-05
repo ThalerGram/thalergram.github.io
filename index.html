@@ -1,3 +1,35 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThalerGram Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>کاربران</h2>
+      <ul id="userList">
+        <li>دوست 1</li>
+        <li>دوست 2</li>
+      </ul>
+      <div class="crypto-prices">
+        <h3>قیمت رمزارز</h3>
+        <p id="btcPrice">BTC: --</p>
+        <p id="ethPrice">ETH: --</p>
+      </div>
+    </div>
+    <div class="chat">
+      <div id="messages">
+        <div class="message received">سلام! 👋</div>
+      </div>
+      <div class="input-area">
+        <input type="text" id="msgInput" placeholder="پیام خود را بنویسید...">
+        <button id="sendBtn">ارسال</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
