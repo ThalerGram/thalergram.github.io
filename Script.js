@@ -1,12 +1,12 @@
 // Replace / confirm contract address and links if you want dynamic update
-const contractAddr = '0x8545689...'; // replace with full real contract address
+const contractAddr = '0xb4d1f80cbbf41b2a883098b9523ae32233fd038a'; // replace with full real contract address
 const polygonscanBase = 'https://polygonscan.com/address/';
 
 document.getElementById('contractAddress').textContent = contractAddr;
 document.getElementById('polygonscanLink').href = polygonscanBase + contractAddr;
 
 // supply formatting
-const raw = '21000000000000000000000000000000000000000000000000000000000000000000000000000';
+const raw = '21,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000';
 document.getElementById('rawSupply').textContent = raw;
 
 // format with commas every 3 digits (big integers)
