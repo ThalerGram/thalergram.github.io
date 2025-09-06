@@ -1,6 +1,6 @@
 // Replace / confirm contract address and links if you want dynamic update
 const contractAddr = '0xb4d1f80cbbf41b2a883098b9523ae32233fd038a'; // replace with full real contract address
-const polygonscanBase = 'https://polygonscan.com/address/';
+const polygonscanBase = 'https://polygonscan.com/token/0xb4d1f80cbbf41b2a883098b9523ae32233fd038a';
 
 document.getElementById('contractAddress').textContent = contractAddr;
 document.getElementById('polygonscanLink').href = polygonscanBase + contractAddr;
