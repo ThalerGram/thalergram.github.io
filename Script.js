@@ -1,8 +1,18 @@
-// Placeholder price for Taler Coin
-async function updateTalerPrice() {
-  // اگر API واقعی داری می‌تونی اینجا فراخوانی کنی
-  document.getElementById('talerPrice').textContent = "TALER: $0.001";
+// Replace / confirm contract address and links if you want dynamic update
+const contractAddr = '0x8545689...'; // replace with full real contract address
+const polygonscanBase = 'https://polygonscan.com/address/';
+
+document.getElementById('contractAddress').textContent = contractAddr;
+document.getElementById('polygonscanLink').href = polygonscanBase + contractAddr;
+
+// supply formatting
+const raw = '21000000000000000000000000000000000000000000000000000000000000000000000000000';
+document.getElementById('rawSupply').textContent = raw;
+
+// format with commas every 3 digits (big integers)
+function formatBigIntWithCommas(s) {
+  // split into groups of 3 from the right
+  return s.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-updateTalerPrice();
-setInterval(updateTalerPrice, 60000); // بروزرسانی هر دقیقه
+document.getElementById('fmtSupply').textContent = formatBigIntWithCommas(raw);
