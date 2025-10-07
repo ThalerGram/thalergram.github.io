@@ -1,0 +1,126 @@
+<main class="container">
+  <section class="card">
+    <h2>ThalerGram Token</h2>
+    <p>
+      TalerGram exists as a token on the Polygon network.<br>
+      Contract: <code>0xb4D1F80cbbf41B2a883098b9523ae32233fd038a</code><br>
+      <a href="https://polygonscan.com/token/0xb4D1F80cbbf41B2a883098b9523ae32233fd038a" target="_blank">
+        Verify on PolygonScan
+      </a>
+    </p>
+  </section>
+
+  <section class="card">
+    <h3>Total Supply</h3>
+    <p>
+      Raw supply:<br>
+      <code>21000000000000000000000000000000000000000000000000000000000000000000000000000</code>
+    </p>
+    <p>
+      Scientific notation: <strong>2.1 × 10<sup>76</sup></strong><br>
+      Name: <strong>2.1 Quattuorvigintillion</strong><br>
+      (Scientific notation is used for clarity.)
+    </p>
+  </section>
+
+  <section class="card">
+    <h3>Token Distribution & Market</h3>
+    <p>
+      A measured portion of supply will be offered monthly on QuickSwap to establish liquidity and orderly distribution.
+      Markets determine value. Pools reflect supply and demand.
+      <a href="https://quickswap.exchange/" target="_blank">View on QuickSwap</a>.
+    </p>
+  </section>
+
+
+  <section class="card">
+    <h3>Token Swap Program</h3>
+    <p>
+      Holders of the promised <strong>ECR tokens</strong> from the Epic Cache group may swap ECR for ThalerGram (THALER)
+      under the following conditions:
+    </p>
+    <ul>
+      <li>Polygon ECR contract: <code>0x89606fA5d084edA5E9949F7b8F750c65c609eB46</code></li>
+      <li>Wanchain ECR contract: <code>0xaacb8505b680dd287ecde9679c72aa5fef2e9b0c</code></li>
+      <li>Exchange rate: <code>1 ECR → 100 THALER</code> (valid until end of 2025)</li>
+    </ul>
+    <p>
+      ECR tokens can also be used to purchase THALER directly on the Polygon network via
+      <a href="https://quickswap.exchange/" target="_blank">QuickSwap</a>.
+      Official claim and swap details will be released through verified channels.
+    </p>
+  </section>
+
+  <section class="card">
+    <h3>Roadmap (High Level)</h3>
+    <ul>
+      <li>Fork from BEAM and configure blockchain parameters</li>
+      <li>Build node and wallet infrastructure</li>
+      <li>Implement lottery-based and multi-algorithm mining</li>
+      <li>Reinforce 51% attack resistance</li>
+      <li>Enable on-chain messaging and TTL for message expiry</li>
+      <li>Integrate wallet chat system</li>
+      <li>Launch public testnet, audit, gather feedback</li>
+      <li>Transition to mainnet and community adoption</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h3>Burn & Scarcity</h3>
+    <p>
+      A controlled, transparent burn mechanism will gradually remove tokens from circulation.
+      Each burn event will be verifiable on the Polygon blockchain.
+      The aim is to mirror Bitcoin’s DNA — predictable issuance and deliberate scarcity — 
+      while evolving toward a more resilient economic design.
+    </p>
+  </section>
+
+  <section class="card">
+    <h3>Future Blockchain & Token Migration</h3>
+    <p>
+      TalerGram is initially a Polygon token. We are developing a dedicated blockchain tailored to private,
+      censorship-resistant communication and transactions.
+    </p>
+    <p>
+      When the new TalerGram chain launches, every holder of the Polygon-based token will receive 
+      <strong>1 native coin per token</strong> held (1:1 migration). 
+      Early holders keep full parity.
+    </p>
+    <p>
+      Migration events and verifications will be announced publicly on
+      <a href="https://x.com/ThalerGram" target="_blank">@ThalerGram</a>
+      and the official Session community.
+    </p>
+  </section>
+
+    <section class="card">
+    <h3>Vision</h3>
+    <p>
+      We will build a private, peer-to-peer messaging system that minimizes metadata and resists censorship.
+      No phone numbers. No email. No central authority.
+      End-to-end encryption by default.
+      Minimal identifiable data on the network.
+      Users keep custody of keys and coins.
+      Predictable monetary policy. Intentional scarcity.
+    </p>
+  </section>
+
+  
+  <section class="card">
+    <h3>Contact / Join Us</h3>
+    <p>
+      To connect with the TalerGram community, use the <strong>Session messenger</strong>.<br>
+      Add this account:
+      <code>FinishCCP: 050b43344506981154ac66a24dbac1ff4a67802d291006adde1753ff0f93d82f4f</code><br>
+      You will then be invited to the <strong>"ThalerGram"</strong> group inside Session.
+    </p>
+    <p>
+      Follow updates on X (Twitter): 
+      <a href="https://x.com/ThalerGram" target="_blank">@ThalerGram</a>
+    </p>
+    <p>
+      All official announcements, contract addresses, and burn records will only be published via
+      the Session group and our X account. Verify before acting.
+    </p>
+  </section>
+</main>
